@@ -1,30 +1,34 @@
 <!DOCTYPE html PUBLIC "- // w3c // dtd html 4.0 transitional // en">
 <html>
 <head> 
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta http-equiv="Content-Type" content="text / html; charset=UTF-8">
- <meta name="Generator" content="WordPerfect 9">
- <meta name="author" content="Dr John Elfick, johnelfick@hotmail.com">
- <meta name="description" content="Rank scaling tables for high schools.">
- <meta name="keywords" content="theory, rank, calculating, T-scotes, scaling, deviation, distributed, Ian W. Wright.">
- <meta name="robots" content="index, follow">
- <meta name="revisit-after" content="7 days">
- <meta name="GENERATOR" content="Mozilla / 4.79 [en] (Windows NT 5.0; U) [Netscape]">
- <title>The theory of rank scaling tables by Ian W. Wright</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text / html; charset=UTF-8">
+<meta name="Generator" content="WordPerfect 9">
+<meta name="author" content="Dr John Elfick, j.elfick@uq.edu.au">
+<meta name="description" content="Rank scaling tables for high schools.">
+<meta name="keywords" content="theory, rank, calculating, T-scotes, scaling, deviation, distributed, Ian W. Wright.">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="7 days">
+<meta name="GENERATOR" content="Mozilla / 4.79 [en] (Windows NT 5.0; U) [Netscape]">
+<title>The theory of rank scaling tables by Ian W. Wright</title>
 </head>
- <body alink="#b07050" bgcolor="#ffffff" link="#0000ff" text="#000000" vlink="#ff8000">
- <a name="RankScal2"></a><a href="../index.html">School Science Lessons</a><br>
- Mathematics and measurement<br>
- The theory of rank scaling tables<br>
- by Ian W. Wright, Department of Mathematics, The Papua New Guinea University
- of Technology, Lae, Papua New Guinea<br>
- 2022-08-11<br>
- Please send comments to: johnelfick@hotmail.com<br>
- 
-<hr width="100%" size="2">Preface<br>
+<body alink="#b07050" bgcolor="#ffffff" link="#0000ff" text="#000000" vlink="#ff8000">
+
+<a href="../index.html">School Science Lessons</a><br>
+2022-08-11, RankScal2.html<br>
+Please send comments to: j.elfick@uq.edu.au<br>
+
+<hr width="100%" size="2">
+<a name="RankScal2"></a>
+Mathematics and measurement<br>
+The theory of rank scaling tables<br>
+by Ian W. Wright, Department of Mathematics, The Papua New Guinea University
+of Technology, Lae, Papua New Guinea<br>
+
+<hr width="100%" size="2"><h2>Preface</h2>
 The author is grateful to Dr Murli Gupta for his advice, to Dr David Tombs and the University of Technology for assistance with many things, and to Mrs Lenore Adams for typing this manuscript.<br>
- 
-<hr width="100%" size="2">The theory of rank scaling tables<br>
+
+<hr width="100%" size="2"><h3>The theory of rank scaling tables</h3>
 by Ian W. Wright, Department of Mathematics, The Papua New Guinea University of Technology, Lae, Papua New Guinea<br>
 Introduction and Preliminaries<br>
 In calculating students' marks, especially when comparing different subjects, teachers often use so called "T-scores" calculated from each raw score X by T = 50 + 10z, where z = (X - M) / s, with M and s respectively the mean and standard deviation of the class as a whole.<br>
@@ -46,22 +50,22 @@ This is the situation when a top group of students break away from the rest.<br>
 It would be a pity if your system for simulating T-scores did not take account of this eventuality.<br>
 Accordingly the author has sought a sound method to incorporate this valuable (though subjective) judgment by the teacher in the students' final scores.<br>
 An operating scheme devised by the author will now be described.<br>
- 
-<hr width="100%" size="2">Operating Procedure for Rank Scaling Tables<br>
+
+<hr width="100%" size="2"><h3>Operating Procedure for Rank Scaling Tables</h3>
 1. Mark test papers or add up marks of cumulative assessment.<br>
 2. Put marks in rank order, breaking ties by an appropriate method.<br>
 3. If the group of students at the top have done particularly well (in the teachers opinion, and by obtaining high scores) a star or other symbol should be placed before the rank number.<br>
 4. Look up the Rank Scaling Table for the class of that size.<br>
 Give each student the score in the table except that 3 should be added to the scores for the starred group.<br>
 [The latter procedure beginning with "Give each student . . ." is not used by J. Elfick.]<br>
- 
-<hr width="100%" size="2">The Performance<br>
+
+<hr width="100%" size="2"><h3>The Performance</h3>
 To see how well the scores determined by your method compare with actual T-scores, we shall have to examine the theoretical distribution of T-scores of students ranked first, second, third, fourth . . . in classes of size 20, 30, 40, 50, 80, 100, 150, 300.<br>
 This will give us some insight into the operating procedure.<br>
 Later we will compare the results of an actual simulation with these theoretical values to show the performance in practice.<br>
 We should remark now that the size of standard deviation of the nth T-score in a class of n is the key to the success of the entire scheme.<br>
- 
-<hr width="100%" size="2">Theoretical Distribution of T-Scores<br>
+
+<hr width="100%" size="2"><h3>Theoretical Distribution of T-Scores</h3>
 For a class of size n with marks [Xr: 1 &lt; r &lt; n] we calculate M (mean) and Var (X) and this gives the T-score of then nth student as Tr = 10 / √ var (X) (Xr - M) + 50<br>
 In the following discussion we shall assume, for numerical convenience, that the normal order statistics are drawn from a normal population with mean 50 and standard deviation 10.<br>
 We shall also assume that Var (X) and M for that sample of n are independent of Tr.<br>
@@ -78,6 +82,7 @@ Var Xr = (1 + 1 / 2n) Var Tr + 1 / 2n (Etr -50)2 + 100 / n<br>
 or Var Tr = Var (Xr) - 1 / 2n(ETr - 50)2 - 100 / n / (1 + 1 / 2n)<br>
 Our knowledge of the distribution of the order-statistics Xr enables us to evaluate this RHS.<br>
 We now give tables of the standard deviation of Tr for various representative class sizes n.<br>
+
 <hr width="100%" size="2">
 </body>
 </html>

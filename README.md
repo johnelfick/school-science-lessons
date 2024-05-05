@@ -4,4 +4,4 @@ Experiments for high schools in physics, chemistry, biology and geology to impro
 
 https://johnelfick.github.io/school-science-lessons/
 
-Please send comments to: johnelfick@hotmail.com
+Please send comments to: j.elfick@uq.edu.au<br>
