@@ -13,7 +13,7 @@ RLC circuits for teaching high school physics classes.">
 <body>
 
 School Science Lessons<br>
-2025-09-03<br>
+2025-09-18<br>
 (UNPh30.1)<br>
 <hr width="100%" size="2"><a name="UNPh30.1H"></a>Alternating currents and voltages<br>
 Contents<br>
@@ -47,7 +47,6 @@ Contents<br>
 <a href="#30.2.6H">30.2.6</a> Impedance<br>
 <a href="#30.2.7H">30.2.7</a> RL circuits, impedance<br> 
 <a href="#30.2.8H">30.2.8</a> RL series combinations<br>
-<a href="#30.2.9H">30.2.9</a> RMS currents<br>
 
 <hr width="100%" size="2"><a name="30.3.0H">30.3.0</a> Resonance<br>
 <a href="#30.3.1H">30.3.1</a> Bandwidth and Q factor<br>
@@ -57,27 +56,28 @@ Contents<br>
 <a href="#30.3.5H">30.3.5</a> Resonance in LC circuits<br>
  
 <hr width="100%" size="2"><a name="30.4.0H">30.4.0</a> RC circuits<br>
-<a href="#30.4.1H">30.4.1</a> RC circuits, impedance, phase angle and power factor<br>
+<a href="#30.4.1H">30.4.1</a> RC circuits<br>
 <a href="#30.4.2H">30.4.2</a> Impedance in an RC circuit<br>
 <a href="#30.4.6H">30.4.6</a> Voltage and current in an RC circuit<br>
 
 <hr width="100%" size="2"><a name="30.5.0H">30.5.0</a> RLC circuits<br>
-<a href="#30.5.2H">30.5.2</a> RLC circuits, impedance<br>
-<a href="#30.5.3H">30.5.3</a> RLC series combinations<br>
-<a href="#30.5.4H">30.5.4</a> Impedance, RLC circuit<br>
-<a href="#30.5.5H">30.5.5</a> Limit of frequencies<br>
-<a href="#30.5.6H">30.5.6</a> Phase angle<br>
+<a href="#30.5.1H">30.5.1</a> RLC circuits<br>
+<a href="#30.5.2H">30.5.2</a> RLC series combinations<br>
+<a href="#30.5.3H">30.5.3</a> Impedance in RLC circuit<br>
+<a href="#30.5.4H">30.5.4</a> Limit of frequencies<br>
+<a href="#30.5.5H">30.5.5</a> Phase angle<br>
  
 <hr width="100%" size="2"><a name="30.6.0H">30.6.0</a> Transformers<br>
-<a href="#30.6.1H">30.6.1</a> Hall effect<br>
-<a href="#30.6.2H">30.6.2</a> Magnetoresistance<br>
-<a href="#30.6.3H">30.6.3</a> Magnetostriction<br>
+<a href="#30.6.1H">30.6.1</a> Transformers<br>
+<a href="#30.6.2H">30.6.2</a> Hall effect<br>
+<a href="#30.6.3H">30.6.3</a> Magnetoresistance<br>
+<a href="#30.6.4H">30.6.4</a> Magnetostriction<br>
 <br>
 <hr width="100%" size="2"><a name="30.1.1H">30.1.1</a> AC current and voltage<br>
  Alternating current reverses polarity at regular intervals.<br> 
  <a href="../images/30.1.3.gif">See diagram 30.1.3</a>: Simple electric motor.<br> 
  <a href="../images/ACvoltagecurrent.jpg">See diagram</a>: AC voltage and current.<br> 
- In the diagram, V = V<sub>max</sub> sin ωt, and I = I<sub> max</sub> sin ωt = ( V<sub>max</sub> / R) sin ωt, corresponding to the AC voltage.<br> 
+ In the diagram, V = Vmax sin ωt, and I = I max sin ωt = ( Vmax / R) sin ωt, corresponding to the AC voltage.<br> 
  The voltages of the generator and the current through the resistor are in phase, so their maxima and minima occur simultaneously.<br>
 
 <hr width="100%" size="2"><a name="30.1.2H">30.1.2</a> AC circuits<br>
@@ -89,7 +89,7 @@ Table 30.1.12: Properties of different AC circuits<br>
  </td>
  <td valign="top">Impedance, Z<br>
  </td>
- <td valign="top">Average power, P<sub>av</sub><br>
+ <td valign="top">Average power, Pav<br>
  </td>
  <td valign="top">Phase angle, Φ<br>
  </td>
@@ -99,7 +99,7 @@ Table 30.1.12: Properties of different AC circuits<br>
  </td>
  <td valign="top">Z = R<br>
  </td>
- <td valign="top">P<sub>av</sub> = I<sup>2</sup><sub>RMS</sub>R = V<sup>2</sup><sub>RMS</sub>
+ <td valign="top">Pav = I<sup>2</sup>RMSR = V<sup>2</sup>RMS
  / R </td>
  <td valign="top">Φ = 0<sup>o</sup><br>
  </td>
@@ -107,16 +107,16 @@ Table 30.1.12: Properties of different AC circuits<br>
  <tr>
  <td valign="top">Capacitor, C<br>
  </td>
- <td valign="top">Z = X<sub>C</sub> = 1 / ωC </td>
- <td valign="top">P<sub>av</sub> = 0<br>
+ <td valign="top">Z = XC = 1 / ωC </td>
+ <td valign="top">Pav = 0<br>
  </td>
  <td valign="top">Φ = -90<sup>o</sup> </td>
  </tr>
  <tr>
  <td valign="top">Inductor, I<br>
  </td>
- <td valign="top">Z = X<sub>L</sub> = ωL </td>
- <td valign="top">P<sub>av</sub> = 0<br>
+ <td valign="top">Z = XL = ωL </td>
+ <td valign="top">Pav = 0<br>
  </td>
  <td valign="top">Φ = +90<sup>o</sup><br>
  </td>
@@ -124,10 +124,10 @@ Table 30.1.12: Properties of different AC circuits<br>
  <tr>
  <td valign="top">RC circuit<br>
  </td>
- <td valign="top">Z = (R<sup>2</sup> + X<sub>c</sub><sup>2</sup>) =
+ <td valign="top">Z = (R<sup>2</sup> + Xc<sup>2</sup>) =
 [R<sup>2</sup> + (1 / ωC)<sup>2</sup>]<br>
  </td>
- <td valign="top">P<sub>av</sub> = I<sub>RMS</sub>V<sub>RMS</sub> cos 
+ <td valign="top">Pav = IRMSVRMS cos 
  Φ<br>
  </td>
  <td valign="top">-90<sup>o</sup>&lt; Φ &lt;0<sup>o</sup><br>
@@ -136,9 +136,9 @@ Table 30.1.12: Properties of different AC circuits<br>
  <tr>
  <td valign="top">RL circuit<br>
  </td>
- <td valign="top">Z = (R<sup>2</sup> + X<sub>L</sub><sup>2</sup>) = 
+ <td valign="top">Z = (R<sup>2</sup> + XL<sup>2</sup>) = 
 (R<sup>2</sup> + ωL)<sup>2</sup></td>
- <td valign="top">P<sub>av </sub>= I<sub>RMS</sub>V<sub>RMS</sub> cos 
+ <td valign="top">Pav = IRMSVRMS cos 
  Φ<br>
  </td>
  <td valign="top">0<sup>o</sup> &lt; Φ &lt; 90<sup>o</sup>\<br>
@@ -147,16 +147,16 @@ Table 30.1.12: Properties of different AC circuits<br>
  <tr>
  <td valign="top">RLC circuit<br>
 .</td>
- <td valign="top">Z = R<sup>2</sup> + ( X<sub>L </sub> - <sub> </sub>X<sub>C)</sub><sup>2</sup>
+ <td valign="top">Z = R<sup>2</sup> + ( XL - XC)<sup>2</sup>
  = R<sup>2</sup> + (ωL - 1 / ωC)<sup>2<br>
 .<br> 
  </sup></td>
- <td valign="top">P<sub>av</sub> = I<sub>RMS</sub>V<sub>RMS</sub> cos 
+ <td valign="top">Pav = IRMSVRMS cos 
  Φ<br>
 .<br> 
  </td>
  <td valign="top">-90<sup>o</sup> &lt; Φ &lt;0<sup>o</sup><br>
- (X<sub>C</sub> &gt; X<sub>L</sub>)</td>
+ (XC &gt; XL)</td>
  </tr>
  <tr>
  <td valign="top">"<br>
@@ -166,7 +166,7 @@ Table 30.1.12: Properties of different AC circuits<br>
  <td valign="top">"<br>
  </td>
  <td valign="top">0<sup>o</sup>&lt; Φ &lt; 90<sup>o</sup><br>
- (X<sub>C</sub> &lt; X<sub>L</sub>)<br>
+ (XC &lt; XL)<br>
  </td>
  </tr> 
  </tbody> 
@@ -178,25 +178,25 @@ Table 30.1.12: Properties of different AC circuits<br>
  In many countries, e.g. UK, the mains supply has frequency 50 Hz, so one alternating current cycle lasts 1 / 50 = 0.02 seconds.<br> 
 
 <hr width="100%" size="2"><a name="30.1.4H">30.1.4</a> Current, AC, root mean square value (RMS)<br>
- The current through a light bulb in a simple AC circuit, I = V / R = ( V<sub> max</sub> / R) sin ωt = I<sub> max</sub> sin ωt.<br> 
- Calculate root mean square value, RMS I = I<sub>max</sub> sin ωt.<br>
- Square both sides so I<sup>2</sup> is always positive, so I<sup>2</sup> = I<sup>2</sup><sub> max</sub> sin<sup>2</sup> ωt.<br> 
- A graph of I<sup>2</sup> against time shows I<sup>2</sup> fluctuating symmetrically between 0 and I<sup>2</sup><sub> max</sub>, 
+ The current through a light bulb in a simple AC circuit, I = V / R = ( V max / R) sin ωt = I max sin ωt.<br> 
+ Calculate root mean square value, RMS I = Imax sin ωt.<br>
+ Square both sides so I<sup>2</sup> is always positive, so I<sup>2</sup> = I<sup>2</sup> max sin<sup>2</sup> ωt.<br> 
+ A graph of I<sup>2</sup> against time shows I<sup>2</sup> fluctuating symmetrically between 0 and I<sup>2</sup> max, 
  so the mean of I<sup>2</sup> = I<sup>2</sup> / 2.<br>
- So I<sup>2</sup><sub>av</sub> = I<sup>2</sup><sub> max</sub>.<br>
- So I<sub>av</sub>, i.e. I <sub>RMS</sub> = I<sub> av</sub> = (1 / 2) I <sub>max</sub> = 0.70710678 I <sub>max</sub> = 0.71 I<sub> max</sub>= 0.71 x peak value.<br> 
+ So I<sup>2</sup>av = I<sup>2</sup> max.<br>
+ So Iav, i.e. I RMS = I av = (1 / 2) I max = 0.70710678 I max = 0.71 I max= 0.71 x peak value.<br> 
  So a perfect sine wave has a RMS amplitude = about 0.7071 x the peak amplitude.<br> 
  When voltage or current is quoted, it may be a maximum value or an RMS value, as is usually quoted by ammeters and voltmeters.<br>
- Use the equation: I <sub>max</sub> = 2 x I<sub> RMS</sub>.<br> 
+ Use the equation: I max = 2 x I RMS.<br> 
 
 <hr width="100%" size="2"><a name="30.1.5H">30.1.5</a> Voltage, AC, root mean square value (RMS)<br>
  Voltage = electrical potential difference.<br> 
  The AC generator produces a voltage that varies with time.<br> 
- The equation for the voltage delivered by an AC generator, V = V<sub>max</sub> sin ωt, where V<sub>max</sub> is the maximum value of
+ The equation for the voltage delivered by an AC generator, V = Vmax sin ωt, where Vmax is the maximum value of
  a voltage during a cycle, ω is the angular frequency (ω = 2πf, where f = 60 Hz in USA).<br> 
  The graph for the sinusoidal time dependence for an AC circuit is similar to the graph for simple harmonic motion.<br> 
- RMS value of the voltage in an AC circuit, V RMS = (1 / 2) V <sub>max</sub>, V<sub> max</sub> / 2 or V<sub> max</sub> = 2V RMS.<br> 
- If RMS of the voltage in a domestic circuit = 120 V, peak value in the circuit, V <sub>max</sub> = 2V RMS = V<sub> max</sub> = 2 x 120 = 169.7056 = 170 V.<br> 
+ RMS value of the voltage in an AC circuit, V RMS = (1 / 2) V max, V max / 2 or V max = 2V RMS.<br> 
+ If RMS of the voltage in a domestic circuit = 120 V, peak value in the circuit, V max = 2V RMS = V max = 2 x 120 = 169.7056 = 170 V.<br> 
 
 <hr width="100%" size="2"><a name="30.1.6H">30.1.6</a> Alternators<br>
  1. In a direct current, DC, circuit the electrons flow only in one direction.<br> 
@@ -224,7 +224,7 @@ Table 30.1.12: Properties of different AC circuits<br>
  <a href="../images/30.10.gif">See diagram 30.10</a>: Alternator, AC Generator.<br>
  When side BC of the coil is in positions (1.) and (3.), the coil is moving in the same direction as the magnetic field, from N to S, no emf is produced.<br> 
  When side BC of the coil is in positions (2.) and (4.), the coil is moving perpendicular to the magnetic field from N to S, maximum emf is produced.<br> 
-  Experiment<br>
+ Experiment<br>
  4. Simple alternator<br>
  Use 2 solenoids, an inner and an outer solenoid.<br> 
  Observe the movement of the pointer of the centre zero galvanometer when the inner solenoid is stationary.<br> 
@@ -340,39 +340,39 @@ Table 30.1.12: Properties of different AC circuits<br>
  A 5 amp fuse or 6 amp MCB is used on the consumer unit for a lighting circuit.<br> 
 
 <hr width="100%" size="2"><a name="30.1.8H">30.1.8</a> Power, AC<br>
- Average power, P<sub>av</sub> = V<sub>RMS</sub> x I<sub>RMS</sub>.<br> 
+ Average power, Pav = VRMS x IRMS.<br> 
  Australian and British power systems operate at 240 volts RMS, at 50 cycles per second (50 Hertz).<br> 
  The peak values are 340 volt.<br> 
- V<sub>alternating current</sub> = V<sub>peak value</sub> / 2 = 340/ 2 = 240 volts.<br>
+ Valternating current = Vpeak value / 2 = 340/ 2 = 240 volts.<br>
  American and Japanese systems use 110 volts RMS and 60 cycles per second.<br> 
- Average power, P<sub>av</sub> = V<sub>RMS</sub> x I<sub> RMS</sub>.<br> 
+ Average power, Pav = VRMS x I RMS.<br> 
 <br> 
-Average power, P<sub>av</sub>, consumed by a circuit<br>
- 1. I<sub>RMS</sub> = V<sub>RMS</sub> / R.<br> 
- 2. I<sub>max</sub> = V<sub>max</sub> / R.<br> 
+Average power, Pav, consumed by a circuit<br>
+ 1. IRMS = VRMS / R.<br> 
+ 2. Imax = Vmax / R.<br> 
  3. Instantaneous power consumed by a resistor, P = I<sup>2</sup>R.<br> 
- 4. Over time I = I <sub>max</sub> sin ωt.<br> 
- So P = I<sup>2</sup>R = I<sup>2</sup><sub> max</sub> R sin<sup>2</sup> ωt.<br> 
+ 4. Over time I = I max sin ωt.<br> 
+ So P = I<sup>2</sup>R = I<sup>2</sup> max R sin<sup>2</sup> ωt.<br> 
  6. The average of sin<sup>2</sup> ωt = 1/2.<br> 
- 7. So P<sub>av</sub> = I<sup>2</sup><sub>max</sub> R(sin<sup>2</sup> ωt)<sub>av</sub>.<br> 
- 8. I<sub>RMS</sub> = I<sub>max</sub> / 2.<br> 
- 9. Average power, P<sub>av</sub> (using current) = I<sup>2</sup><sub>RMS</sub>R.<br> 
+ 7. So Pav = I<sup>2</sup>max R(sin<sup>2</sup> ωt)av.<br> 
+ 8. IRMS = Imax / 2.<br> 
+ 9. Average power, Pav (using current) = I<sup>2</sup>RMSR.<br> 
  If the frequency changes, the average power stays the same.<br> 
  <br>
 Instantaneous power consumption, P = I<sup>2</sup> R, in DC and AC circuits.<br> 
- Replace I with I<sub>RMS</sub> to find average power.<br> 
- Average power, P<sub>av</sub> = I<sup>2</sup><sub>max</sub> x R.<br> 
- P<sub>av</sub> (using voltage) = V<sup>2</sup> / R = (V<sup>2</sup><sub>max</sub> / R)sin<sup>2</sup> ωt.<br> 
- So average power, P<sub>av</sub> = (V<sup>2</sup><sub>max</sub> / R) 1/2 = V<sup>2</sup><sub>RMS</sub> / R.<br> 
+ Replace I with IRMS to find average power.<br> 
+ Average power, Pav = I<sup>2</sup>max x R.<br> 
+ Pav (using voltage) = V<sup>2</sup> / R = (V<sup>2</sup>max / R)sin<sup>2</sup> ωt.<br> 
+ So average power, Pav = (V<sup>2</sup>max / R) 1/2 = V<sup>2</sup>RMS / R.<br> 
 
 <hr width="100%" size="2"><a name="30.1.9H">30.1.9</a> Resistors and Ohm's law<br>
  Resistances</a>, (Commercial).<br> 
  Voltage and current in a resistor as a function of time.<br> 
  Let v = voltage and i = current when studying their variation with time.<br> 
- Let peak values, amplitudes, of a sinusoidal variation be V<sub>m</sub> and I<sub>m</sub>.<br> 
+ Let peak values, amplitudes, of a sinusoidal variation be Vm and Im.<br> 
  Let RMS values be V = Vm / 2 and I = Im / 2.<br>
  The voltage, v, across a resistor, R, is proportional to the current, i, travelling through it, so v = Ri.<br> 
- Diagram 30.1.8 shows the peak value of voltage through a resistor = R x peak value of current, I<sub>m</sub>.<br> 
+ Diagram 30.1.8 shows the peak value of voltage through a resistor = R x peak value of current, Im.<br> 
  They are in phase when the current is a maximum and the voltage is a maximum.<br>
  
 <hr width="100%" size="2"><a name="30.1.10H">30.1.10</a> Resistor in simple AC circuit<br>
@@ -380,15 +380,15 @@ Instantaneous power consumption, P = I<sup>2</sup> R, in DC and AC circuits.<br>
  by an AC generator is a circle enclosing one cycle of a sine wave.)<br>
  If a 50 Hz, maximum voltage 24 V generator is connected directly to 
 a 265 ohm resistor in a circuit,<br>
- RMS voltage, V<sub>RMS</sub> = V<sub>max</sub> / 2 = 24.0 / 2 = 16.970
+ RMS voltage, VRMS = Vmax / 2 = 24.0 / 2 = 16.970
  = 17.0 V.<br> 
- RMS current in the circuit, I <sub>RMS</sub> = V<sub>RMS</sub> / R
+ RMS current in the circuit, I RMS = VRMS / R
 = 17.0 / 265 = 0.0641509 = 0.0642 A.<br> 
- Average power (using the current), P<sub>av</sub> = I<sup>2</sup><sub>RMS</sub> 
+ Average power (using the current), Pav = I<sup>2</sup>RMS 
  R = (0.0642)<sup>2</sup> x 265 = 1.0922346 = 1.09 W.<br> 
- Average power (using the voltage), P<sub>av</sub> = V<sup>2</sup><sub>RMS</sub>
+ Average power (using the voltage), Pav = V<sup>2</sup>RMS
  / R = (17.0)<sup>2</sup> / 265 = 1.09056603 = 1.09 W.<br> 
- Maximum power used by the resistor, P<sub>max</sub> = 2 x average power 
+ Maximum power used by the resistor, Pmax = 2 x average power 
  = 2 x 1.09 = 2.18 W.<br> 
  This calculation does not use the frequency of the generator (50 Hz), because resistance is independent of frequency.<br> 
  So if the frequency were varied, the average power would still be the same.<br> 
@@ -398,7 +398,7 @@ a 265 ohm resistor in a circuit,<br>
 
 <hr width="100%" size="2"><a name="30.1.11H">30.1.11</a> Root mean square values, RMS values<br>
  Root mean square values, RMS values, peak value, electrical power systems<br>
- Sinusoidal time dependence, Instantaneous current, I, varies with time: I = I<sub>o</sub>.<br>
+ Sinusoidal time dependence, Instantaneous current, I, varies with time: I = Io.<br>
  As alternating current fluctuates from positive to negative vales it is measured by its peak value or by its root mean square value.<br>
  RMS = (peak value / 2).<br> 
  This is the steady direct voltage or current that would give the same heating effect.<br> 
@@ -426,7 +426,7 @@ a 265 ohm resistor in a circuit,<br>
  However, for fluorescent tube lights, the start-up uses about 23 seconds worth of power.<br> 
  Turning the light on and off repeatedly does not reduce the total life expectancy of the light bulb enough to offset the increased electricity usage.<br> 
  Turning a light off is more economical than leaving it on.<br> 
- Fluorescent light tubes are more expensive than incandescent light bulbs and their operating life is affected by the number of times they are  switched off and on.<br> 
+ Fluorescent light tubes are more expensive than incandescent light bulbs and their operating life is affected by the number of times they are switched off and on.<br> 
  Turn fluorescent lights off if leaving a room for more than five minutes.<br> 
  2. Determine how much energy the light consumes when it is turned on by reading the watt rating printed on the light.<br> 
  Check the cost of electricity per kWh from the utility bill.<br> 
@@ -458,7 +458,7 @@ a 265 ohm resistor in a circuit,<br>
  As the AC frequency is increased, at some frequency the current cannot form in the coil before the polarity of the voltage reverses.<br> 
  So almost no current forms in the coil and it remains cool.<br> 
  If the supply delivered the same power as a DC source it would melt the wire.<br> 
- 3. Inductive reactance X<sub>L</sub> (ohms) = 2 π fL, where f = frequency of the current (hertz), and L = inductance of the coil (henry).<br> 
+ 3. Inductive reactance XL (ohms) = 2 π fL, where f = frequency of the current (hertz), and L = inductance of the coil (henry).<br> 
  If inductance is constant in a coil, inductive reactance increases with AC frequency.<br> 
  However, if AC frequency is constant, inductive reactance increases with increasing inductance.<br> 
  4. When electric current flows through the coil from the left to the right, a magnetic field is generated in a clockwise direction.<br> 
@@ -487,37 +487,37 @@ a 265 ohm resistor in a circuit,<br>
  An inductor behaves in the opposite way to a capacitor.<br> 
  
 <hr width="100%" size="2"><a name="30.2.3H">30.2.3</a> Inductive reactance.br>
- Inductive reactance, X<sub>L</sub> = ωL<br>
- 1. Just as voltage across a capacitor, V = IX<sub>C</sub>, and X<sub>C</sub>
- = 1 / ωC, where X<sub>C</sub> is the capacitative reactance, similarly voltage across an inductor, V = IX<sub>L</sub>, where XL is the inductive reactance.<br> 
- Inductive reactance, X<sub>L</sub> = ωL.<br> 
- Diagram 30.2.5 shows that the capacitative reactance, X<sub>C</sub>, becomes large with decreasing frequency, but the inductive reactance, X<sub>L</sub>, 
+ Inductive reactance, XL = ωL<br>
+ 1. Just as voltage across a capacitor, V = IXC, and XC
+ = 1 / ωC, where XC is the capacitative reactance, similarly voltage across an inductor, V = IXL, where XL is the inductive reactance.<br> 
+ Inductive reactance, XL = ωL.<br> 
+ Diagram 30.2.5 shows that the capacitative reactance, XC, becomes large with decreasing frequency, but the inductive reactance, XL, 
  becomes large with increasing frequency.<br> 
  Note the resistance, R, is independent of frequency.<br> 
- 2. Inductive reactance, X<sub>L</sub> is the ratio of the voltage and the current, X<sub>L</sub> = ωL.<br> 
- For peak voltage and current, V<sub>m</sub> = X<sub>L</sub> I<sub>m</sub>.<br> 
+ 2. Inductive reactance, XL is the ratio of the voltage and the current, XL = ωL.<br> 
+ For peak voltage and current, Vm = XL Im.<br> 
  The largest voltage across the inductor occurs when the current is changing most rapidly, i.e. when the current is instantaneously zero amps.<br> 
  The voltage across the ideal conductor is 90<sup>o</sup> ahead of the current, i.e. it reaches its peak one quarter cycle before the current reaches its peak.<br> 
  3. Diagram 30.2.01b also show that the reactance is frequency dependent, XL = ωL.<br> 
  When the frequency is halved, but the current amplitude kept constant, the current is varying only half as quickly, as is the Faraday emf.<br> 
  For an inductor, the ratio of voltage to current increases with frequency.<br> 
- 4. Inductive reactance, X<sub>L</sub>, increases with frequency, unlike capacitive reactance, X <sub>c</sub>, because the higher the frequency the more 
+ 4. Inductive reactance, XL, increases with frequency, unlike capacitive reactance, X c, because the higher the frequency the more 
  rapidly current changes with time, so the greater voltage across the inductor.<br> 
- RMS current in an inductor, I<sub>RMS</sub> = V<sub>RMS</sub> / X<sub>L</sub>.<br> 
+ RMS current in an inductor, IRMS = VRMS / XL.<br> 
  The voltage across an inductor leads the current by 90<sup>o</sup>.<br> 
  The characteristic time over which the current changes (time constant), τ = L / R.<br> 
  Increasing current with time, the switch is closed in the simplest RL circuit at time t = 0, 
  the current increases with time, I = emf / R (1 -e<sup>-tR / L</sup>).<br> 
  Total voltage in the circuit, Vmax = (Imax R)<sup>2</sup> + (ImaxXL)<sup>2</sup> = Imax (R<sup>2</sup> + XL<sup>2</sup>) = Imax Z.<br> 
- Total voltage in the circuit, V<sub>max</sub> = (I<sub>max</sub> R)<sup>2</sup> + (I<sub>max</sub> X<sub>L</sub>)<sup>2</sup> = I<sub>max</sub> (R<sup>2</sup> 
- + X<sub>L</sub><sup>2</sup>) = I<sub>max</sub> Z.<br> 
+ Total voltage in the circuit, Vmax = (Imax R)<sup>2</sup> + (Imax XL)<sup>2</sup> = Imax (R<sup>2</sup> 
+ + XL<sup>2</sup>) = Imax Z.<br> 
 
 <hr width="100%" size="2"><a name="30.2.5H">30.2.5</a> Dimmers<br>
  Observe the brightness of a light bulb, resistance R, in a circuit powered by an AC generator.<br> 
- The current through the light bulb, I<sub>RMS</sub> = V<sub>RMS</sub> / R.<br> 
+ The current through the light bulb, IRMS = VRMS / R.<br> 
  Add an inductor, L, to the circuit.<br> 
- The impedance, Z = (R<sup>2</sup> + X<sub>L</sub><sup>2</sup>) &gt; R.<br> 
- So the current in the circuit, I<sub>RMS</sub> = V<sub>RMS</sub> / Z.<br> 
+ The impedance, Z = (R<sup>2</sup> + XL<sup>2</sup>) &gt; R.<br> 
+ So the current in the circuit, IRMS = VRMS / Z.<br> 
  The current is less, so the light bulb is glows dimmer.<br> 
  In a light dimmer, an iron rod is moved into or out of the coil of an inductor.<br> 
  When the iron rod is deeper in the coil, the inductance is increased, so the current is decreased in the circuit and the light glows dimmer.<br> 
@@ -526,14 +526,14 @@ a 265 ohm resistor in a circuit,<br>
  If both circuits have the same resistance, the current in RC circuits and RL circuits decreases with increasing frequency.<br> 
  In the RC circuit, the current is low when the capacitive reactance is high, at low frequency.<br> 
  In the RL circuit, the current is low where the inductive reactance is high, high frequency.<br> 
- If the circuit contained only a resistor, the current has the same RMS current with increasing frequency, so the RMS current does not change.<br> 
+ If the circuit contained only a resistor, the current has the same RMS current with increasing frequency, so the urrent does not change.<br> 
 
 <hr width="100%" size="2"><a name="30.2.7H">30.2.7</a> RL circuits, impedance<br>
  RL circuits, (resistance-inductance circuits)<br>
  The simplest RL circuit contains a battery (emf ), a switch, a resistor, R, and an inductor, L, connected in series.<br> 
- Maximum current, I<sub>max</sub> = V<sub>max</sub> / Z, where V<sub>max</sub> is the maximum voltage of the AC generator.<br> 
- Z is the RL circuit impedance, Z = (R<sup>2</sup> + X<sub>L</sub><sup>2</sup>) = (R<sup>2</sup> + ω L)<sup>2</sup>.<br> 
- The impedance for an RL circuit has the same form as for an RC circuit, (except X<sub>L</sub> instead of X<sub>C</sub>.)<br>
+ Maximum current, Imax = Vmax / Z, where Vmax is the maximum voltage of the AC generator.<br> 
+ Z is the RL circuit impedance, Z = (R<sup>2</sup> + XL<sup>2</sup>) = (R<sup>2</sup> + ω L)<sup>2</sup>.<br> 
+ The impedance for an RL circuit has the same form as for an RC circuit, (except XL instead of XC.)<br>
  Power factor for an RL circuit, cos Φ = R / Z = R / (R<sup>2</sup>+ ω L)<sup>2</sup>.<br> 
  1. In an AC circuit, impedance refers to the combined opposition to movement of alternating current caused by the resistance (R), and the reactance (X),
  measured by the ratio of the electromotive force to the resulting current.<br> 
@@ -546,10 +546,10 @@ a 265 ohm resistor in a circuit,<br>
  Impedance Z = (R<sup>2</sup> + [XL - XC]<sup>2</sup>).<br> 
  3. Resonance in series AC<br>
  A circuit produces the largest possible response to an applied oscillating signal when its inductive and capacitative reactances are balanced.<br> 
- Maximum current will flow in a circuit affected by inductance, resistance, and capacitance, when the inductive reactance (X<sub>L</sub>) cancels 
- the capacitive reactance (X<sub>c</sub>).<br> 
+ Maximum current will flow in a circuit affected by inductance, resistance, and capacitance, when the inductive reactance (XL) cancels 
+ the capacitive reactance (Xc).<br> 
  Impedance is the combined opposition to the passage of AC exerted by the resistance (R).<br> 
- Reactance (X<sub>c</sub>), measures the ratio of the electromotive force to the resulting current, so Z = (R<sup>2</sup> + X<sub>L</sub><sup>2</sup>).<br> 
+ Reactance (Xc), measures the ratio of the electromotive force to the resulting current, so Z = (R<sup>2</sup> + XL<sup>2</sup>).<br> 
  Impedance is the general term for the ratio of voltage to current.<br> 
  Resistance is the special case of impedance when Φ (phi) = 0.<br> 
  Reactance is a special case of impedance when Φ (phi), = 90<sup>o</sup>.<br> 
@@ -567,17 +567,17 @@ a 265 ohm resistor in a circuit,<br>
  <tr>
  <td valign="top">Resistance<br>
  </td>
- <td valign="top">Capacitive reactance, X<sub>c</sub><br>
+ <td valign="top">Capacitive reactance, Xc<br>
  </td>
- <td valign="top">Inductive reactance, X<sub>L</sub><br>
+ <td valign="top">Inductive reactance, XL<br>
  </td>
  </tr>
  <tr>
- <td valign="top">V<sub>R</sub> / I = R<br>
+ <td valign="top">VR / I = R<br>
  </td>
- <td valign="top">V<sub>c</sub> / I = X<sub>c</sub> = 1 / ω C<br>
+ <td valign="top">Vc / I = Xc = 1 / ω C<br>
  </td>
- <td valign="top">VL / I = X<sub>L</sub> = ω L<br>
+ <td valign="top">VL / I = XL = ω L<br>
  </td>
  </tr>
  <tr>
@@ -593,15 +593,15 @@ a 265 ohm resistor in a circuit,<br>
 
 <hr width="100%" size="2"><a name="30.2.8H">"30.2.8</a> RL series combinations<br>
  The voltage across the inductor is ahead of the current by 90<sup>o</sup>.<br> 
- The inductive reactance, X<sub>L</sub> = ω L.<br> 
+ The inductive reactance, XL = ω L.<br> 
  RL circuits are not used as much as RC circuits, except at high frequencies, because finding suitable inductors is difficult.<br>
 
 <hr width="100%" size="2"><a name="30.3.1H">30.3.1</a> Bandwidth and Q factor<br>
  At resonance, the voltages across the capacitor and the pure inductance cancel.<br> 
- So the series impedance has its minimum value: Z<sub>o</sub> = R.<br> 
+ So the series impedance has its minimum value: Zo = R.<br> 
  So if the voltage is kept constant, the current is a maximum at resonance.<br> 
- The current goes down to zero at low frequency, because X<sub>C</sub> becomes infinite.<br> 
- The current falls to zero at high frequency, because X<sub>L</sub> increases with ω when the inductor opposes rapid changes in the current.<br> 
+ The current goes down to zero at low frequency, because XC becomes infinite.<br> 
+ The current falls to zero at high frequency, because XL increases with ω when the inductor opposes rapid changes in the current.<br> 
  Diagram 30.3.1 shows I(ω) for a circuit with a large resistor, the lower curve, and with a small resistor, the upper curve.<br> 
  A circuit with low R, for a given L and C, has a sharp resonance.<br> 
  Increasing the resistance makes the resonance less sharp.<br> 
@@ -610,9 +610,9 @@ a 265 ohm resistor in a circuit,<br>
  The circuit with higher R responds to a wider range of frequencies and so has a larger bandwidth.<br> 
  The bandwidth Aω (see the horizontal bars on the curves), is defined as the difference between the two frequencies ω and ω at which the circuit converts power
  at half the maximum rate.<br> 
- The electrical power converted to heat in this circuit = I<sup>2</sup>R, so the maximum power is converted at resonance, ω = ω<sub>o</sub>.<br> 
- The circuit converts power at half this rate when the current is I<sub>o</sub> 2.<br> 
- The Q value is defined as the ratio Q = ω<sub>o</sub> / ω.<br> 
+ The electrical power converted to heat in this circuit = I<sup>2</sup>R, so the maximum power is converted at resonance, ω = ωo.<br> 
+ The circuit converts power at half this rate when the current is Io 2.<br> 
+ The Q value is defined as the ratio Q = ωo / ω.<br> 
 
 <hr width="100%" size="2"><a name="30.3.2H">30.3.2</a> Current versus frequency graph<br>
  Diagram 30.3.3 shows current plotted against frequency in an RLC circuit.<br> 
@@ -627,10 +627,10 @@ a 265 ohm resistor in a circuit,<br>
 <hr width="100%" size="2"><a name="30.3.3H">30.3.3</a> Impedance versus frequency graph<br>
  Series impedance rises to infinity at high frequency, because the inductor produces a large emf if the current varies rapidly.<br> 
  Similarly series impedance is large at very low frequency, because the capacitor has a long time in each half cycle to get charged.<br> 
- The minimum value of series impedance occurs when the voltages across the capacitor and inductor are equal and opposite, i.e. v<sub>L</sub>(t) = - VC(t),
+ The minimum value of series impedance occurs when the voltages across the capacitor and inductor are equal and opposite, i.e. vL(t) = - VC(t),
  so VLt = VC.<br> 
- ωL = 1 / ωC, and this occurs at frequency ω<sub>0</sub> = 1 / LC.<br> 
- f<sub>0</sub> = 1 / 2π 1 / LC, where ω<sub>0</sub> is the angular frequency of resonance and f<sub>0</sub> is the cyclic frequency of resonance.<br> 
+ ωL = 1 / ωC, and this occurs at frequency ω0 = 1 / LC.<br> 
+ f0 = 1 / 2π 1 / LC, where ω0 is the angular frequency of resonance and f0 is the cyclic frequency of resonance.<br> 
  At resonance, series impedance is a minimum, so the voltage for a given current is a minimum, or the current for a given voltage is a minimum.<br> 
  So in an RLC circuit where the inductor has a low internal resistance, r, a large voltage can occur across the inductor and an equally large voltage can occur across
  the capacitor.<br> 
@@ -644,13 +644,13 @@ a 265 ohm resistor in a circuit,<br>
 
 <hr width="100%" size="2"><a name="30.3.5H">30.3.5</a> Resonance in LC circuits<br>
  1. AC circuits have a natural frequency of oscillation, similar to a pendulum, or mass supported by a spring.<br> 
- So an LC circuit containing only an inductor and a capacitor has the nature frequency, ω<sub>o</sub> = 1 / LC = 2πf<sub>o</sub>.<br> 
+ So an LC circuit containing only an inductor and a capacitor has the nature frequency, ωo = 1 / LC = 2πfo.<br> 
  At ω = 1 / LC, an RLC circuit has maximum current, resonance.<br> 
  2. The expression for the series impedance goes to infinity at high frequency, because the inductor produces a large emf if the current varies rapidly.<br> 
  Similarly, the expression is large at very low frequencies, because of the capacitor, which has a long time in each half cycle to charge up.<br> 
- In the plot of Z<sub>series</sub>ω, there is a minimum value of the series impedance, when the voltages across capacitor and inductor are equal and opposite, i.e. v<sub>L</sub>(t) = v<sub>C</sub>(t) = va(t).<br> 
- So V<sub>L</sub>(t) = V<sub>C</sub>.<br> 
- So ωL = l / ωC, and the frequency at which this occurs is ω<sub>o</sub> = 1 / LC, where ω<sub>o</sub> is the angular frequency of resonance and f<sub>o</sub> is the 
+ In the plot of Zseriesω, there is a minimum value of the series impedance, when the voltages across capacitor and inductor are equal and opposite, i.e. vL(t) = vC(t) = va(t).<br> 
+ So VL(t) = VC.<br> 
+ So ωL = l / ωC, and the frequency at which this occurs is ωo = 1 / LC, where ωo is the angular frequency of resonance and fo is the 
  cyclic frequency of resonance.<br> 
  At resonance, series impedance is a minimum, so the voltage for a given current is a minimum or the current for a given voltage is a minimum.<br> 
 3. In an RLC series circuit in which the conductor has relatively low internal resistance, r, it is possible to have a large voltage across 
@@ -661,11 +661,12 @@ a 265 ohm resistor in a circuit,<br>
  A big voltage occurs in the circuit for only a small voltage input from the power source.<br> 
  The energy stored in the large oscillations is gradually supplied by the AC source when the circuit is closed and the energy is then exchanged between capacitor and inductor in each cycle.<br> 
 
-<hr width="100%" size="2"><a name="30.1.4.H">30.4.1</a> RC circuits, impedance, phase angle and power factor<br>
+<hr width="100%" size="2"><a name="30.4.1H">30.4.1</a> RC circuits<br>
+ RC circuits, impedance, phase angle and power factor<br>
  1. An RC circuit has an AC generator, a resistor, R, and a capacitor C, connected in series.<br> 
- The values of R, C, V<sub>max</sub> and ω are known.<br> 
- 2. The maximum voltage across the resistor, R, V<sub>max</sub> = I<sub>max</sub> R.<br> 
- 3. The maximum voltage for the capacitor C, V<sub>max</sub> = I<sub>max</sub> Xc = I<sub>max</sub> / ωC.<br>
+ The values of R, C, Vmax and ω are known.<br> 
+ 2. The maximum voltage across the resistor, R, Vmax = Imax R.<br> 
+ 3. The maximum voltage for the capacitor C, Vmax = Imax Xc = Imax / ωC.<br>
  4. The total voltage for the circuit is not (2.) + (3.), because the resistor and the capacitor do not have maximum voltage at the same time.<br> 
  They are not in phase.<br> 
  The resistor and capacitor have a phase difference, Φ, of 90<sup>o</sup>.<br> 
@@ -675,7 +676,7 @@ a 265 ohm resistor in a circuit,<br>
  However, resistance is the ratio of voltage to current, and resistance does not depend on frequency.<br> 
  Impedance is the general name given to the ratio of voltage to current.<br> 
  So resistance is a kind of special case of impedance.<br> 
- Impedance is a measure of the combined opposition to the passage of alternating current by the resistance, R, and the capacitive reactance, X<sub>c</sub>.<br> 
+ Impedance is a measure of the combined opposition to the passage of alternating current by the resistance, R, and the capacitive reactance, Xc.<br> 
  2. Impedance in an RC circuit, the ratio of the emf to the resulting current, Z = (R2 + Xc<sup>2</sup>) = [R<sup>2</sup> + (1 / ωC)<sup>2</sup>] ohm.<br> 
  So in an RC circuit with R = 135, C = 28 F, and f = 60 HZ, Z = [R<sup>2</sup> + (1 / ωC)<sup>2</sup>], [ ω = 2πf].<br>
  = 1352 + (1 / 2π X 60 X 30 X 10<sup>-6</sup>)<sup>2</sup> = 164.899 = 16<br> 
@@ -686,56 +687,58 @@ a 265 ohm resistor in a circuit,<br>
  To find the maximum voltage across the capacitor, C, as Vmax = Imax (R<sup>2</sup> + Xc<sup>2</sup>) = Imax Z.<br> 
  So Imax = Vmax / Z<br>
 
-<hr width="100%" size="2"><a name="30.01H"></a>30.01 RLC circuits, RLC circuit impedance, limit of large and small frequencies<br>
+<hr width="100%" size="2"><a name="30.5.1H">30.5.1</a> RLC circuits<br>
+ RLC circuits, RLC circuit impedance, limit of large and small frequencies<br>
  1. The AC RLC circuit has a resistor, inductor and capacitor, connected in series.<br> 
  RLC circuits are also called LRC and LCR circuits.<br> 
  2. The voltage of the resistor is in phase with the current.<br> 
  The voltage of the inductor is 90<sup>o</sup> ahead of the current.<br> 
  The voltage of the capacitor is 90<sup>o</sup> behind the current.<br> 
- 
-<hr width="100%" size="2"><a name="30.2H"></a>30.2 Impedance of an RLC circuit<br>
- Impedance of an RLC circuit, Z = R<sup>2</sup> + ( X<sub>L </sub> - <sub> </sub>X<sub>C)</sub><sup>2</sup> = R<sup>2</sup> + (ωL - 1 / ωC)<sup>2</sup>
- ohm.<br> 
- This is the same as for the impedance of the RC circuit and the RL
-circuit.<br> 
- 
-<hr width="100%" size="2"><a name="30.3H"></a>30.3 Phase angle, Φ, between the total voltage and the current<br>
- tan Φ = I<sub>max</sub>(X<sub>L </sub> - <sub> </sub>X<sub>C</sub>) 
-/ I<sub>max</sub> R = (X<sub>L </sub> - <sub> </sub>X<sub>C</sub>) / R.<br>
- If X<sub>L </sub>&gt; <sub> </sub>X<sub>C</sub>, Φ is positive, the 
-voltage leads the current.<br> 
- If X<sub>L </sub>&lt; <sub> </sub>X<sub>C</sub>, Φ is negative, the 
-voltage lags the current.<br> 
- If X<sub>L </sub>= <sub> </sub>X<sub>C</sub>, Φ = 0, the voltage and
- the current are in phase.<br> 
- Note that cos Φ = R / Z, as in the RC and RL circuits.<br> 
 
-<hr width="100%" size="2"><a name="30.5.3H">30.5.3</a> RLC series combinations<br>
+
+<hr width="100%" size="2"><a name="30.5.2">30.5.2</a> RLC series combinations<br>
  1. R, L and C in series<br>
- At a given time, the voltage across a resistor, R, an inductor, L, and a capacitor, C, in series, v<sub>series</sub>(t) = v<sub>R</sub>(t) + v<sub>L</sub>(t) + v<sub>C</sub>(t).<br> 
+ At a given time, the voltage across a resistor, R, an inductor, L, and a capacitor, C, in series, vseries(t) = vR(t) + vL(t) + vC(t).<br> 
  The current i(t) is sinusoidal.<br> 
- The voltage across the resistor, v<sub>R</sub>(t), is in phase with the current.<br> 
- The voltage across the inductor, v<sub>L</sub>(t), is 90<sup>o</sup> ahead of the current.<br> 
- The voltage across the capacitor, v<sub>C</sub>(t), is 90<sup>o</sup> behind the current.<br> 
+ The voltage across the resistor, vR(t), is in phase with the current.<br> 
+ The voltage across the inductor, vL(t), is 90<sup>o</sup> ahead of the current.<br> 
+ The voltage across the capacitor, vC(t), is 90<sup>o</sup> behind the current.<br> 
  2. Time dependent voltages, v(t), add up at any time, RMS voltages do not add up.<br> 
+
+<hr width="100%" size="2"><a name="30.5.3H">30.5.3</a> Impedance of an RLC circuit<br>
+ Impedance of an RLC circuit, Z = R<sup>2</sup> + ( XL - XC)<sup>2</sup> = R<sup>2</sup> + (ωL - 1 / ωC)<sup>2</sup>
+ ohm.<br> 
+ This is the same as for the impedance of the RC circuit and the RL circuit.<br> 
  
-<hr width="100%" size="2"><a name="30.5.5H">30.5.5</a> Limit of frequencies<br>
+<hr width="100%" size="2"><a name="30.5.4H">30.5.4</a> Limit of frequencies<br>
  1. At very high frequencies, the reactance of an inductor becomes very large and behaves like a large resistor with almost no current flowing, and behaves like an
  open circuit.<br> 
  However, the reactance of the capacitor becomes very small, and acts like a wire with no resistance.<br> 
  2. At very low frequencies, e.g. an AC generator replaced by a battery, the reactance of an inductor becomes almost zero, and acts 
  like a wire with no resistance.<br> 
  However, the reactance of the capacitor becomes very large, and behaves like an open circuit.<br> 
- I<sub>RMS</sub> approaches zero.<br> 
+ IRMS approaches zero.<br> 
 
-<hr width="100%" size="2"><a name="30.6.0H">30.6.0</a> Transformers<br>
+<hr width="100%" size="2"><a name="30.5.5H">30.5.5</a> Phase angle<br>
+Phase angle, Φ, between the total voltage and the current<br>
+ tan Φ = Imax(XL - XC) 
+/ Imax R = (XL - XC) / R.<br>
+ If XL &gt; XC, Φ is positive, the 
+voltage leads the current.<br> 
+ If XL &lt; XC, Φ is negative, the 
+voltage lags the current.<br> 
+ If XL = XC, Φ = 0, the voltage and
+ the current are in phase.<br> 
+ Note that cos Φ = R / Z, as in the RC and RL circuits.<br> 
+
+
+<hr width="100%" size="2"><a name="30.6.1H">30.6.1</a> Transformers<br>
 Transformer</a>, Dissectible</a> (Commercial).<br> 
 Electric Motors</a>, transformer, Dissectable, (Commercial).<br> 
-
  1. Transformers convert the voltage and current in one circuit to a different voltage and current in another circuit, according to the equation:
- I<sub>s</sub> / I<sub>p</sub> = V<sub>p</sub> / V<sub>s</sub> 
- = N<sub>p</sub> / N<sub>s</sub>, where I = current, V = voltage, and N = number of turns in the primary, <sub>p</sub>, and secondary,
- <sub>s</sub><sub>, </sub> circuits of the transformer.<br> 
+ Is / Ip = Vp / Vs 
+ = Np / Ns, where I = current, V = voltage, and N = number of turns in the primary, p, and secondary,
+ s, circuits of the transformer.<br> 
  A primary coil and a secondary coil of insulated wire are wound on a soft iron coil, either one on top of the other or on separate limbs of the core,
  the primary coil and the secondary coil.<br> 
  When AC passes through the primary coil an alternating magnetic flux is produced in the iron core that passes through the secondary coil.<br> 
@@ -773,9 +776,9 @@ Experiments<br>
  transformer at the suburban or town end.<br> 
  A transformer consists of two coils, a primary, P, and a secondary S, wound, on an iron core.<br> 
  An alternating current in P produces an alternating magnetic effect in the iron core, and so also an alternating emf in S.<br> 
- If N<sub>p</sub> and N<sub>s</sub> are the number of turns in the primary and secondary respectively, and P and S the emf in the primary and secondary respectively, then the primary emf can be changed to a secondary at 
+ If Np and Ns are the number of turns in the primary and secondary respectively, and P and S the emf in the primary and secondary respectively, then the primary emf can be changed to a secondary at 
  either a higher or lower potential, and a step-up or step-down transformer is used according to whether the secondary contains a greater or smaller number of turns than the primary.<br> 
- PN<sub>s</sub> = SN<sub>s</sub>, S / P = N<sub>s</sub> / N<sub>p</sub>.<br>
+ PNs = SNs, S / P = Ns / Np.<br>
  
 <hr width="100%" size="2"><a href="../images/30.2.02.gif">See diagram 30.2.02</a> "Step-up" transformer 2.<br> 
  In the diagram, the coil on the left has fewer coils than that at right.<br> 
@@ -787,19 +790,19 @@ Experiments<br>
  The magnetic flux through the primary and secondary coil are equal, as shown.<br> 
  From Faraday's law, the emf in each turn of the primary or secondary coil, is -dp / dt.<br> 
  Neglecting resistance and other losses in the transformer, the terminal voltage equals the emf.<br> 
- For the Np turns of the primary coil, Vp = - N<sub>p</sub>.dΦ / dt.<br>
- For the N, turns of the secondary coil, V<sub>s</sub> = NsΦ / dt.<br>
+ For the Np turns of the primary coil, Vp = - Np.dΦ / dt.<br>
+ For the N, turns of the secondary coil, Vs = NsΦ / dt.<br>
  Dividing these equations gives the transformer equation:<br>
- V<sub>s</sub> / V<sub>p</sub> = N<sub>s</sub> / N<sub>p</sub> = r, where r is the turns ratio.<br> 
- Assuming that the voltage and the current have similar phase relationships in the primary and secondary coils, from the principal of conservation of energy, power in = power out, so V<sub>p</sub>I<sub>p</sub> 
- = V<sub>s</sub>I<sub>s</sub>, I<sub>s</sub> / I<sub>p</sub> = N<sub>p</sub> / N<sub>s</sub> = i / r.<br> 
+ Vs / Vp = Ns / Np = r, where r is the turns ratio.<br> 
+ Assuming that the voltage and the current have similar phase relationships in the primary and secondary coils, from the principal of conservation of energy, power in = power out, so VpIp 
+ = VsIs, Is / Ip = Np / Ns = i / r.<br> 
  If the voltage is increased, the current is decreased by at least the same factor.<br> 
  In the diagram, the coil with more turns has thinner wire, because it is designed to carry less current than the coil with fewer turns.<br> 
  In power transmission lines, the power lost in heating the wires caused by their resistance is proportional to the square of the current.<br> 
  To save energy, power is transmitted from power station to city at very high voltages, so that the currents are very low.<br> 
  For the resistor in the secondary circuit, in the primary circuit:<br>
- V<sub>p</sub> = V<sub>s</sub> / t and I<sub>p</sub> = I<sub>s</sub>r.<br>
- So V<sub>p</sub> / I<sub>p</sub> = V<sub>s</sub> / r<sup>2</sup>I<sub>s</sub> = R / r<sup>2</sup>, the reflected resistance.<br> 
+ Vp = Vs / t and Ip = Isr.<br>
+ So Vp / Ip = Vs / r<sup>2</sup>Is = R / r<sup>2</sup>, the reflected resistance.<br> 
  If the frequency is not too high, and if there is a load resistance, the inductive reactance of the primary is much smaller than the reflected resistance, so the primary circuit behaves as though the
 source were driving a resistor of value R / r2.<br> 
  This allows transformers to be used as impedance matchers.<br> 
@@ -822,9 +825,9 @@ vs DC generators.<br>
  Transformers are used to step up the voltage for transmission and step down the voltage for safe distribution.<br> 
  It is possible to convert voltages in DC, but more complicated than with AC, and such conversions are often inefficient and expensive.<br> 
  
-<hr width="100%" size="2"><a name="30.6.1H">30.6.1</a> Hall effect<br>
+<hr width="100%" size="2"><a name="30.6.2H">30.6.2</a> Hall effect<br>
  Hall Effect</a>, (Commercial).<br> 
-  <a href="../images/30.2.3.gif">See diagram 30.2.3</a>: Hall effect.<br> 
+ <a href="../images/30.2.3.gif">See diagram 30.2.3</a>: Hall effect.<br> 
  1. In 1879, the U.S. physicist Edwin Herbert Hall discovered that when a current flows through a conductor in a magnetic field, the magnetic field exerts
  a transverse force on the moving carriers of negative charge, which tends to push them to one side of the conductor.<br> 
  So charge build-up at the sides of the conductor balances the magnetic effect to produce voltage between the sides of the conductor.<br> 
@@ -837,7 +840,7 @@ vs DC generators.<br>
  Three package styles provide a magnetically optimized package for most applications.<br> 
  They are rated for continuous operation over the temperature range of -20C to +85C and 4.5 V to 6 V operation.<br> 
 
-<hr width="100%" size="2"><a name="30.6.2H">30.6.2</a> Magnetoresistance<br>
+<hr width="100%" size="2"><a name="30.6.3H">30.6.3/a> Magnetoresistance<br>
  In 1852, Lord Kelvin discovered that the resistance of iron and nickel increases when the current is in the same direction as a magnetic force and decreases when the current is at 90 to the magnetic force, 
  a phenomenon called magnetoresistance.<br> 
  So "magnetoresistivity" is the fractional change in resistivity due to the application of a magnetic field.<br> 
@@ -847,7 +850,8 @@ vs DC generators.<br>
  The realignment may cause a slight decrease in length of the iron.<br> 
  The so-called "giant magnetoresistance" (GMR) occurs in a thin metallic film of alternating layers of iron and chromium, where the electrical resistivity of this film can be halved in a magnetic field.<br> 
  This phenomenon is being used to improve the efficiency of magnetic data storage systems.<br> 
- <hr width="100%" size="2"><a name="30.6.3H">30.6.3</a> Magnetostriction<br>
+
+ <hr width="100%" size="2"><a name="30.6.4H">30.6.4</a> Magnetostriction<br>
  Magnetostriction, humming sound of transformers, fluorescent light ballast<br>
  Transformer</a>, Dissectible (Commercial).<br> 
  1. Magnetostriction, a magnetic property of ferromagnetism, refers to how the state of strain in a body and its dimensions depends on its state of magnetization.<br> 
@@ -863,13 +867,6 @@ vs DC generators.<br>
 3. For US circuits, a mains voltage of 60 hertz is associated with maximum length change twice per cycle expansion and contraction of 120 Hz and musical notes and harmonics at 120 Hz.<br> 
  In Europe, with mains supply at 50 Hz, musical notes about 100 Hz occur.<br> 
  Nickel constricts and cobalt steel lengthens when magnetized.<br> 
-
-
-
- 
-
-
-
 <hr width="100%" size="2">
 </body>
 </html>
