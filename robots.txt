@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://xxjelfick.github.io/school-science-lessons/sitemap.xml
+Sitemap: https://johnelfick.github.io/school-science-lessons/sitemap.xml
