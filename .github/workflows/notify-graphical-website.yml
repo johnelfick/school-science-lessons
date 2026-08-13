@@ -12,6 +12,7 @@ name: Notify graphical website
 on:
   push:
     branches: [main]
+  workflow_dispatch: {}
 
 jobs:
   notify:
