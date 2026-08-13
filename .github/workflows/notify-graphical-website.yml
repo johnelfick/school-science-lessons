@@ -1,0 +1,27 @@
+# Tells the graphical website (school-science-lessons-web) to rebuild
+# immediately after every change to this repository. If the token is
+# missing or expired this does nothing and never blocks or fails a push —
+# the graphical website still updates via its hourly check.
+#
+# Secret required: WEB_TRIGGER_TOKEN (Settings -> Secrets and variables ->
+# Actions), a fine-grained personal access token scoped to the
+# school-science-lessons-web repository with Contents: Read and write.
+
+name: Notify graphical website
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger rebuild of the graphical website
+        continue-on-error: true
+        run: |
+          curl -sS -X POST \
+            -H "Authorization: Bearer ${{ secrets.WEB_TRIGGER_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/johnelfick/school-science-lessons-web/dispatches \
+            -d '{"event_type":"source-updated"}'
